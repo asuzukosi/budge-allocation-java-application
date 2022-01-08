@@ -34,5 +34,7 @@ public class Main {
 
         System.out.println("Your final expense table is : ");
         BudgetAllocationCalculation.showExpenseTable();
+
+        scanner.close();
     }
 }
